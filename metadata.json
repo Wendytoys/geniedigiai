@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Tarot Reading",
+  "description": "Get a personalized three-card tarot reading powered by the Gemini API. Explore your past, present, and future with mystical insights.",
+  "requestFramePermissions": []
+}
