@@ -1,0 +1,12 @@
+# Add your own tasks in files placed in lib/tasks.
+#
+# For example, to define a task that prints "Hello, World!", add this to a file in
+# lib/tasks:
+#
+#   task :hello do
+#     puts "Hello, World!"
+#   end
+
+# This is the minimum required to load the application's tasks.
+require_relative "config/application"
+Rails.application.load_tasks
