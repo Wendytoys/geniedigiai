@@ -1,0 +1,19 @@
+source "https://rubygems.org"
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+
+ruby "3.2.2" # It's good practice to specify a Ruby version
+
+gem "rails", "~> 7.0.0"
+gem "puma", "~> 5.0"
+gem "pg", "~> 1.1" # For PostgreSQL
+gem "rack-cors"
+
+# Group for development and test environments
+group :development, :test do
+  gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
+end
+
+# Group for development only
+group :development do
+  # Add any development-specific gems here
+end
